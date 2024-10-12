@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import AboutSection from "./components/AboutSection";
