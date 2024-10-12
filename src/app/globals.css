@@ -4,24 +4,42 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --text: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Body Styles */
+body {
+  color: var(--text); /* Changed to var(--text) to ensure it refers to the text color defined in :root */
+  background: var(--background); /* Changed to var(--background) for background */
+  font-family: 'Poppins', sans-serif; /* Ensure you use quotes for font-family */
+}
+
+/* Custom responsive utility classes (Optional) */
+@media (max-width: 640px) {
+  /* Styles for small devices */
+  .hero-section {
+    padding: 20px;
+    margin-bottom: 10px; /* Adjust padding for smaller screens */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 640px) {
+  /* Styles for small devices and up */
+  .hero-section {
+    padding: 40px; /* Adjust padding for medium screens */
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (min-width: 768px) {
+  /* Styles for medium devices and up */
+  .hero-section {
+    padding: 60px; /* Adjust padding for large screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Styles for large devices and up */
+  .hero-section {
+    padding: 80px; /* Adjust padding for extra-large screens */
   }
 }
