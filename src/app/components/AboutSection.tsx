@@ -13,7 +13,7 @@ const AboutSection = () => {
         {/* Image positioned under the title on mobile */}
         <div className="flex justify-center md:hidden mb-4">
           <Image
-            src="/aboutUs.png"
+            src="/aboutus.png"
             alt="profile-image"
             width={400}
             height={400}
@@ -54,7 +54,7 @@ const AboutSection = () => {
       <div className="flex-1 flex justify-center md:justify-end mt-10">
         {/* This will show the image only on medium and larger screens */}
         <Image
-          src="/aboutUs.png"
+          src="/aboutus.png"
           alt="profile-image"
           width={500}
           height={500}
