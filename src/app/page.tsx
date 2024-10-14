@@ -5,7 +5,7 @@ import AboutSection from "./components/AboutSection";
 import Contact from "./components/Contact";
 import ProjectSection from "./components/ProjectSection";
 import HeroSection from "./components/HeroSection";
-import Image from "next/image"
+
 
 const HomePage: React.FC = () => {
   return (
