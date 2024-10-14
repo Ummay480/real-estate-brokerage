@@ -12,7 +12,7 @@ const ProjectSection = () => {
                     <Image
                         className="w-full h-full object-cover" 
                         src="/orangeHouse.png"
-                        alt='orange-house'
+                        alt='orangeHouse'
                         width={1381}
                         height={438}
                     />
@@ -46,7 +46,7 @@ const ProjectSection = () => {
                     <Image
                         className="w-full h-full object-cover" 
                         src="/blueHouse.png"
-                        alt='blue-house'
+                        alt='blueHouse'
                         width={1381}
                         height={438}
                     />
