@@ -15,13 +15,6 @@ const HomePage: React.FC = () => {
 
       {/* Hero Section */}
       <div>
-      <Image
-            src="/main-house.png"
-            alt="house-image"
-            className="w-full lg:w-auto h-auto"
-            width={785}
-            height={667}
-          />
         <HeroSection />
       </div>
 
