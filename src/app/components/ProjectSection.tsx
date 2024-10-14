@@ -28,7 +28,7 @@ const ProjectSection = () => {
                 <div className="bg-gradient-to-r from-[#C1DEE8] to-[#FBD9B9] rounded-lg overflow-hidden h-[300px]"> {/* Fixed height */}
                     <Image
                         className="w-full h-full object-cover"  
-                        src="/whiteHouse.png"
+                        src="/white-house"
                         alt='white-house'
                         width={1381}
                         height={438}
