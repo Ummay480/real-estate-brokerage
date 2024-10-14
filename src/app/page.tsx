@@ -5,6 +5,7 @@ import AboutSection from "./components/AboutSection";
 import Contact from "./components/Contact";
 import ProjectSection from "./components/ProjectSection";
 import HeroSection from "./components/HeroSection";
+import Image from "next/image"
 
 const HomePage: React.FC = () => {
   return (
@@ -14,6 +15,13 @@ const HomePage: React.FC = () => {
 
       {/* Hero Section */}
       <div>
+      <Image
+            src="/main-house.png"
+            alt="house-image"
+            className="w-full lg:w-auto h-auto"
+            width={785}
+            height={667}
+          />
         <HeroSection />
       </div>
 
