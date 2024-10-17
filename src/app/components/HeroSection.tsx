@@ -33,14 +33,15 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right Side */}
+        {/* Right Side - Image */}
         <div className="flex-1 flex justify-center lg:justify-end mt-6 lg:mt-0">
           <Image
-            src="/main-house.png"
+            src="/main-house.png" // Make sure this image is in your /public folder
             alt="house-image"
             className="w-full lg:w-auto h-auto"
             width={785}
             height={667}
+            priority={true} // Preloads the image for better performance
           />
         </div>
       </section>
